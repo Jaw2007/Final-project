@@ -1,108 +1,104 @@
 body {
-    background-image: linear-gradient(150deg,red 0%, red 33%, white 33%, white 66%, red 66%, red 100% )
+    background-image: linear-gradient(150deg,red 0%, red 33%, white 33%, white 66%, red 66%, red 100% ) /* form main this piece of code is the background that blends both the white and red colors together */
 } 
 h3 {
-    text-align: left;
-    color: rgb(0, 0, 0);
-    font-family: "Story Script", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
+    text-align: left;  /* this aligns the text left */
+    color: rgb(0, 0, 0);  /* this sets the color for the h3 elements to black */
+    font-family: "Story Script", sans-serif; /* this sets the font */
+    font-weight: 400;  /* add weight to the text for bolder text*/
+    font-style: normal; /* playing with the font style can change the "type" of your test in this case though it's just normal */
+    font-size: 60px; /* this is what lets you edit the size of text */
 }
 header {
-    padding-bottom: 20px;
-    border-bottom: 20px dotted rgb(126, 255, 6);
-    font-family: "Mountains of Christmas", serif;
-    font-weight: 400;
+    padding-bottom: 20px; /* this is what effects the bottom of the header so the text below has space */
+    border-bottom: 20px dotted rgb(126, 255, 6); /* this is what tells the code to make the under part dotted as well as make it the color green */
+    font-family: "Mountains of Christmas", serif; /* this is a custom font from google */
+    font-weight: 400; /* adds weight to all fonts inside the header */
 } 
 h1 {
-    font-size: 700%;
-    height: 7px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
+    font-size: 700%; /* this is what makes the font size big for h1 */
+    height: 7px; /* it's good to have height so you can have good spacing */
+    font-weight: bold;/* for font weight I set it as bold */
+    color: rgb(255, 255, 255); /* the color is white i thought it'd look good for a christmas theme */
 }
 h2 {
-    font-size: 500%;
-    height: 40px;
-    text-shadow: -3px -3px 6px rgb(255, 136, 0);
+    font-size: 500%; /* this is what makes the font size big for h1 */ 
+    height: 40px; /* I gave h2 some height for good spacing */
+    text-shadow: -3px -3px 6px rgb(255, 136, 0); /* gives the text shadow for a cool effect */
 }
 h3 {
-    text-align: center;
+    text-align: center; /* makes text appear in the center */
 }
 #zen-preamble {
-    width: 500px; 
-    height: 500px;
-    background-color: #4CAF50; 
-    color: white; 
-    display: fixed; 
-    justify-content: center;
-    align-items: center;
-    border-radius: 90%; 
-    text-align: center;  
-    font-size: 20px;
-    position: relative;
-    left: 50px;
+    width: 500px; /* Makes the cycle stretch */
+    height: 500px; /* gives a height if I wanted it taller i could have changed the numbers */
+    background-color: #4CAF50; /* made the color green like an ordament */
+    color: white; /* the text will be white */
+    display: fixed; /* making the display fixed gives me more options for movement */ 
+    justify-content: center; /* makes it so you see it in the center for a flex container*/
+    align-items: center; /* makes the text show in the center this is good because I want everything to fit in as best as I can*/
+    border-radius: 90%; /* makes the radius 90 for a more round effect */
+    text-align: center; /* makes the text go in the center */
+    font-size: 20px; /* I chose 20 because it was big enough to fit inside the cycle while also being easy on the eyes */
+    position: relative; /* messes with the position so I can move the element around easier */
+    left: 50px; /* makes it go to the position */
 }
 #zen-supporting {
-    background-color: #e8ffa8;
-    color: #ff0606; 
-    font-size: 40px;
-    padding: 40px; 
-    border-radius: 20px; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 1.2;
-    border: 10px solid #07ffea;
-    margin: 10px auto; 
-    max-width: 700px; 
-    text-align: left; 
+    background-color: #e8ffa8; /* the color of the background */
+    color: #ff0606; /* the text will be red */
+    font-size: 40px; /* makes the text go from left */
+    padding: 40px; /* adjusts the size in the box */
+    border-radius: 20px; /* adjusts how wide the box is */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* adds a font family */
+    line-height: 1.2; /* the height of the box */
+    border: 10px solid #07ffea; /* allows me to edit how much of the boarder should be shown */
+    margin: 10px auto; /* the position */ 
+    max-width: 700px; /* what makes the box wide to the max*/ 
+    text-align: left; /* makes the main text start on the left side */
 }
 #design-selection {
-    width: 500px; 
-    height: 500px;
-    background-color: #6606ff; 
-    color: white; 
-    display: auto; 
-    justify-content: center;
-    align-items: center;
-    border-radius: 60%; 
-    text-align: center; 
-    font-size: 16px; 
-    text-align: left;
-    position: absolute;
-    top: 850px;
-    right: 9px;
-    width: 460px; 
-    font-size: 20px;
+    height: 500px;  /* adjusts the height */
+    background-color: #6606ff;  /* the color of the background */
+    color: white; /* the text will be red */
+    display: auto; /* autos the display */
+    justify-content: center; /* makes it so you see it in the center for a flex container*/
+    align-items: center; /* puts the aligned items in the center*/
+    border-radius: 60%; /* radius for boarder*/
+    text-align: center;  /* makes the main text start on the center */
+    font-size: 16px; /* adjusts the size of the font */
+    text-align: left; /* makes the text go from left */
+    position: absolute; /* makes the position absolute good for moving it around the page to your liking */
+    top: 850px; /* adjust how heigh it should be on the page */
+    right: 9px; /* makes the text go to the right */
+    width: 460px;  /* what makes the box wide */
+    font-size: 20px; /* makes the text get bigger or smaller */
 } 
 #zen-resources {
-    width: 500px; 
-    height: 500px;
-    background-color: #ff9306; 
-    color: white; 
-    display: auto; 
-    justify-content: center;
-    align-items: center;
-    border-radius: 60%; 
-    text-align: center; 
-    font-size: 16px; 
-    text-align: center;
-    position: absolute;
-    bottom: -999px;
-    left: -60px;
-    width: 460px; 
-    font-size: 20px;
+    width: 500px; /* what makes the element wide */
+    height: 500px; /* adjusts the height */
+    background-color: #ff9306; /* the color of the background */
+    color: white;  /* the text will be red */
+    display: auto; /* autos the display */
+    justify-content: center; /* puts the content in the center */
+    align-items: center;  /* puts the aligned items in the center*/
+    border-radius: 60%;  /* adjust the outer board of a radius*/
+    text-align: center; /* makes the main text start on the center */
+    font-size: 16px; /* makes the text get bigger or smaller */
+    text-align: center; /* makes the main text start on the center */
+    position: absolute; /* makes the position absolute good for moving it around the page to your liking */
+    bottom: -999px; /* adjust where it shows up on the bottom */
+    left: -60px; /* adjusts where it shows up on the left */
+    font-size: 20px; /* size of font */
 }
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #ff0000;
-    color: white;
-    text-align: center;
-    border: 10px solid #07ff28;
-    position: absolute;
-    bottom: -420%;
+    left: 0; /* adjusts where it shows up on the left */
+    width: 100%;  /* what makes the element wide */
+    background-color: #ff0000;  /* the color of the background */
+    color: white;   /* the text will be red */
+    text-align: center; /* makes the main text start on the center */
+    border: 10px solid #07ff28; /* color of the boarder */
+    position: absolute; /* what hgelps it stay on the bottom */
+    bottom: -430%; /* adjust where it shows up on the bottom */
 } 
 #design-archives {
       width: 400px; 
