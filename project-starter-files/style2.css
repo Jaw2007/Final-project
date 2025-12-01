@@ -2,12 +2,12 @@ body {
     background-image: linear-gradient(45deg,red 0%,red 33%, white 33%, white 66%, green 66%, green 100% )
 } 
 h3 {
-    text-align: center;
-    background-color: red;
-    color: white;
+    text-align: left;
+    color: rgb(0, 0, 0);
     font-family: "Story Script", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 50px;
 }
 header {
     padding-top: 20px;
@@ -30,8 +30,27 @@ h2 {
     height: 50px;
     text-shadow: -3px -3px 6px rgb(255, 136, 0);
 }
+#zen-preamble {
 
+}
+#zen-supporting {
 
+}
+#design-selection {
+
+} 
+#zen-resources {
+
+}
+footer {
+   
+} 
+#design-archives {
+ 
+} 
+.border:hover {
+
+}
 #zen-summary {
     position: absolute;
     top: 310px;
