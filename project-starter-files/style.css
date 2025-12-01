@@ -62,4 +62,14 @@ h2 {
     overflow-y: auto;
     overflow-x: hidden; 
 }
+#design-selection {
+    position: absolute;
+    top: 450px;
+    left: 2px;
+    display: block;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border: 4px dotted black;  
+} 
 
