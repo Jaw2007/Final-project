@@ -33,23 +33,37 @@ h3 {
     text-align: center;
 }
 #zen-preamble {
-    width: 900px; 
-    height: 900px;
+    width: 500px; 
+    height: 500px;
     background-color: #4CAF50; 
     color: white; 
-    display: flex; 
+    display: auto; 
     justify-content: center;
     align-items: center;
-    border-radius: 90%; 
+    border-radius: 50%; 
     text-align: center; 
     font-size: 16px; 
     text-align: left;
 }
 #zen-supporting {
-
+    
 }
 #design-selection {
-
+    width: 500px; 
+    height: 500px;
+    background-color: #6606ff; 
+    color: white; 
+    display: auto; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%; 
+    text-align: center; 
+    font-size: 16px; 
+    text-align: left;
+    position: absolute;
+    top: 550px;
+    right: 9px;
+    width: 460px; 
 } 
 #zen-resources {
 
@@ -81,4 +95,7 @@ p:hover {
     font-size: 40px;
     background: rgb(243, 243, 243);
     color: black;
+}
+p {
+    text-shadow: -5px -5px 6px rgb(230, 255, 4);
 }
