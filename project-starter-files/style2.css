@@ -1,0 +1,28 @@
+body {
+    background-image: linear-gradient(45deg,red 0%,red 33%, white 33%, white 66%, green 66%, green 100% )
+} 
+h3 {
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    font-family: "Story Script", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+} 
+h1 {
+    font-size: 700%;
+    height: 7px;
+    font-weight: bold;
+    color: brown;
+}
+h2 {
+    font-size: 500%;
+    height: 50px;
+    text-shadow: -3px -3px 6px rgb(255, 136, 0);
+}
