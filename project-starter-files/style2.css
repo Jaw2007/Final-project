@@ -10,13 +10,10 @@ h3 {
     font-size: 50px;
 }
 header {
-    padding-top: 20px;
     padding-bottom: 20px;
-    border-top: 30px solid rgb(255, 255, 255);
-    border-bottom: 30px dotted rgb(126, 255, 6);
+    border-bottom: 20px dotted rgb(126, 255, 6);
     font-family: "Mountains of Christmas", serif;
     font-weight: 400;
-    font-style: normal;
 } 
 h1 {
     font-size: 700%;
@@ -43,6 +40,8 @@ h3 {
     border-radius: 90%; 
     text-align: center;  
     font-size: 20px;
+    position: relative;
+    left: 50px;
 }
 #zen-supporting {
     background-color: #e8ffa8;
@@ -102,6 +101,8 @@ footer {
     color: white;
     text-align: center;
     border: 10px solid #07ff28;
+    position: absolute;
+    bottom: -420%;
 } 
 #design-archives {
       width: 400px; 
@@ -150,4 +151,7 @@ li:hover {
     font-size: 40px;
     background: rgb(243, 243, 243);
     color: black;
+}
+p:first-letter {
+    color: #00ff4c;
 }
