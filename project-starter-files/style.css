@@ -67,9 +67,25 @@ h2 {
     top: 450px;
     left: 2px;
     display: block;
-    width: 400px;
+    width: 350px;
     height: auto;
     background-color: white;
     border: 4px dotted black;  
 } 
+#zen-resources {
+    position: absolute;
+    top: 450px;
+    right: 2px;
+    display: block;
+    width: 350px;
+    height: auto;
+    background-color: white;
+    border: 4px dotted black;  
+}
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+} 
