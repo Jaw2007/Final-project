@@ -89,3 +89,20 @@ footer {
     left: 0;
     width: 100%;
 } 
+#design-archives {
+    background-color: rgb(173, 195, 255);
+    text-align: center;
+    color: azure; 
+    list-style-position: inside;
+    text-align: center;
+} 
+.border:hover {
+background-color: yellow;
+font-size: 18px;
+}
+h1:hover, h2:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+
