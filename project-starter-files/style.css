@@ -4,6 +4,14 @@ body {
 header {
     text-align: center;
 } 
-header, h1 {
-    font-size: 200%;
+h1 {
+    font-size: 400%;
+    height: 30px;
+    font-weight: bold;
+    text-shadow: -3px -3px 6px yellow;
+}
+h2 {
+    font-size: 500%;
+    height: 100px;
+    text-shadow: -3px -3px 6px yellow;
 }
