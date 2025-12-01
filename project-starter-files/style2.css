@@ -14,15 +14,15 @@ header {
     padding-bottom: 20px;
     border-top: 30px solid rgb(255, 255, 255);
     border-bottom: 30px dotted rgb(126, 255, 6);
-    font-family: "Story Script", sans-serif;
-    font-weight: 500;
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 400;
     font-style: normal;
 } 
 h1 {
     font-size: 700%;
     height: 7px;
     font-weight: bold;
-    color: brown;
+    color: rgb(255, 255, 255);
 }
 h2 {
     font-size: 500%;
@@ -98,4 +98,10 @@ p:hover {
 }
 p {
     text-shadow: -5px -5px 6px rgb(230, 255, 4);
+}
+li:hover {
+    text-decoration: underline;
+    font-size: 40px;
+    background: rgb(243, 243, 243);
+    color: black;
 }
